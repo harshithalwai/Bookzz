@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Free",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 2,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 3,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Free",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Free",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Free",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 7,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Free",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 8,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 9,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Free",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 10,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Free",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 11,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 12,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 13,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 14,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    },
+    {
+        "id": 15,
+        "name": "Book",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+        "price": 0,
+        "category": "Paid",
+        "img": "https://img.freepik.com/free-photo/pages-open-book_23-2147690479.jpg?t=st=1723195995~exp=1723199595~hmac=095925274eadad2c639de89d2acbc2b84c7e17b49eddfb5b0852582950efa142&w=740"
+    }
+]
