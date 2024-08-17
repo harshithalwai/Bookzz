@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const courses = () => {
   return (
     <>
-      <div className="h-full pt-32 px-16 md:px-32 mb-20">
+      <div className="h-full pt-32  md:px-32 mb-20 flex flex-col justify-center items-center text-justify">
         <div className="heading text-4xl font-semibold w-full md:text-center">
           We&apos;re delighted to have you{" "}
           <span className="text-pink-400">Here! :)</span>

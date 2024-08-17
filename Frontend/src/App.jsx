@@ -4,6 +4,8 @@ import Home from "./Home/home";
 import Course from "./Course/course";
 import Contact from "./Contact/contact";
 import Signup from "./component/signup";
+import { Toaster } from "react-hot-toast";
+
 const App = () => {
   return (
     <>
@@ -14,6 +16,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
+        <Toaster />
       </div>
     </>
   );

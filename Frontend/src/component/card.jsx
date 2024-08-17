@@ -4,7 +4,7 @@ const card = ({ item }) => {
   return (
     <>
       <div className="">
-        <div className="card bg-base-100 w-96 shadow-xl  dark:bg-slate-900 dark:text-white ">
+        <div className="card bg-base-100 w-96 shadow-xl  dark:bg-slate-900 dark:text-white cursor-pointer">
           <figure>
             <img src={item.img} alt="Book" />
           </figure>

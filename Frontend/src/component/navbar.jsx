@@ -110,8 +110,9 @@ const navbar = () => {
               >
                 Login
               </a>
-              <Login />
+              
             </div>
+            <Login />
           </div>
         </div>
       </div>

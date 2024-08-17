@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import List from "../../public/list.json";
 import Card from "./card";
 
 const boxContent = () => {
-  let fliterBook = List.filter((book) => {
+  const [book, setbook] = useState([]);
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const res = await axios.get("http://localhost:4001/book");
+        setbook(res.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getBook();
+  }, []);
+  let fliterBook = book.filter((book) => {
     return book.category == "Free";
   });
 

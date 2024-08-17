@@ -1,7 +1,9 @@
 import React from "react";
 import Login from "./Login";
-import { Link } from "react-router-dom";
+import { json, Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import toast from "react-hot-toast";
 const signup = () => {
   const {
     register,
@@ -10,7 +12,27 @@ const signup = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    const userInfo = {
+      name: data.name,
+      email: data.email,
+      password: data.password,
+    };
+    axios
+      .post("http://localhost:4001/user/signup", userInfo)
+      .then((result) => {
+        if (result.data) {
+          console.log(result.data);
+          toast.success("User Registered Successfully");
+        }
+        localStorage.setItem("Users", JSON.stringify(result.data.user));
+      })
+      .catch((err) => {
+        if (err.response) {
+          toast.error("Error : " + err.response.data.message);
+        }
+      });
+  };
 
   return (
     <>
@@ -23,7 +45,7 @@ const signup = () => {
             ✕
           </Link>
           <div className="w-full h-full  p-10 pt-5 pb-5">
-            <h3 className="font-bold text-2xl mb-3 text-center">Sign Up</h3>
+            <h3 className="font-semibold text-2xl mb-3 text-center">Sign Up</h3>
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="">
                 <div className=" mb-5 h-10 flex justify-between items-center">

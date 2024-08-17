@@ -1,5 +1,7 @@
+import axios from "axios";
 import React from "react";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 
 const contactForm = () => {
   const {
@@ -9,7 +11,27 @@ const contactForm = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    //
+    const contactInfo = {
+      name: data.name,
+      email: data.email,
+      message: data.message,
+    };
+    axios
+      .post("http://localhost:4001/contact/data", contactInfo)
+      .then((result) => {
+        if (result.data) {
+          console.log(result.data);
+          toast.success("Your message has sent successfully ...");
+        }
+      })
+      .catch((err) => {
+        if (err.response) {
+          toast.error("Error : " + err.response.data.message);
+        }
+      });
+  };
 
   return (
     <>
@@ -66,11 +88,14 @@ const contactForm = () => {
                   ></textarea>
                 </div>
               </div>
-              {(errors.name || errors.email || errors.message ||errors.myform) && (
-                    <div className="text-red-600 text-sm text-center font-semibold">
-                      Something Went Wrong ....
-                    </div>
-                  )}
+              {(errors.name ||
+                errors.email ||
+                errors.message ||
+                errors.myform) && (
+                <div className="text-red-600 text-sm text-center font-semibold">
+                  Something Went Wrong ....
+                </div>
+              )}
               <div className="butn mt-5">
                 {" "}
                 <button className="btn text-white px-5 py-0 btn-info">
